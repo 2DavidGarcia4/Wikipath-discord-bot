@@ -1,0 +1,21 @@
+{
+  "name": "wikipath",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc & npm start",
+    "start": "node dist/."
+  },
+  "keywords": [],
+  "author": "David Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
